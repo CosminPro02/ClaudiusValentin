@@ -39,7 +39,7 @@ function Contact() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br p-4 overflow-hidden sm:min-h-full">
+    <div className="min-h-screen bg-gradient-to-br p-4 overflow-hidden sm:min-h-full min-w-full">
       {/* Header */}
       <div className="flex flex-col justify-center items-center pt-12 pb-8">
         <h1 className="text-white text-3xl sm:text-6xl font-bold mb-4 text-center ">
@@ -117,8 +117,8 @@ function Contact() {
         </div>
 
         {/* Contact Info */}
-        <div className="mt-12 max-w-2xl mx-auto">
-          <div className="p-8">
+        <div className="mt-12  mx-auto">
+          <div className="p-8 mx-auto">
             <div className="space-y-6">
               <div className="flex items-center gap-4 p-4 bg-white/5 rounded-xl hover:bg-white/10 transition-all duration-300">
                 <div className="w-12 h-12 bg-black/25 rounded-full flex items-center justify-center">
