@@ -52,7 +52,7 @@ function Contact() {
 
       <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto justify-center">
         {/* Form */}
-        <div className="mt-8 p-8 bg-white/10 backdrop-blur-lg shadow-2xl rounded-2xl max-w-2xl mx-auto border border-white/20 md:w-[500px] w-full">
+        <div className="mt-8 p-8 bg-white/10 backdrop-blur-lg shadow-2xl rounded-2xl max-w-2xl mx-auto border border-white/20 md:w-[500px] ">
           <form className="space-y-6" onSubmit={handleSubmit}>
             {/* Name */}
             <div className="space-y-2">
