@@ -117,7 +117,7 @@ function Contact() {
         </div>
 
         {/* Contact Info */}
-        <div className="mt-12  mx-auto w-full max-w-2xl">
+        <div className="mx-auto w-full max-w-2xl">
           <div className="p-8 mx-auto">
             <div className="space-y-6">
               <div className="flex items-center gap-4 p-4 bg-white/5 rounded-xl hover:bg-white/10 transition-all duration-300">
