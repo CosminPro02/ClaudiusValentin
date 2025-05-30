@@ -14,7 +14,7 @@ function Nav() {
       </p>
 
  
-      <div className="flex gap-6 text-lg md:text-xl font-medium text-white">
+      <div className="flex gap-6 text-xs md:text-xl font-medium text-white">
         <p
           onClick={() => navigate('/servici')}
           className="relative cursor-pointer after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-300 hover:after:w-full hover:text-gray-300"
