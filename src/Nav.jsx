@@ -3,25 +3,32 @@ import { useNavigate } from "react-router-dom";
 function Nav() {
   const navigate = useNavigate();
 
-  function handleHome() {
-    navigate('/');
-  }
+  return (
+    <nav className="w-full px-6 py-4 flex items-center justify-between ">
+
+      <p 
+        onClick={() => navigate('/')} 
+        className="text-2xl md:text-4xl font-bold cursor-pointer text-white hover:text-gray-300 transition-colors"
+      >
+        Claudius Valentin
+      </p>
 
  
-  function handleContact() {
-    navigate('/contact');
-  }
-
-  return (
-    <>
-            <div className="mt-8 flex flex-col md:flex-row items-center w-full m-auto text-white ">
-        <p className="ml-4 text-3xl md:text-6xl titlu">Claudius Valentin</p>
-        <div className="flex gap-4 md:gap-8 mt-4 md:mt-0 ml-auto mr-8 text-xl md:text-2xl cursor-pointer">
-          <p onClick={handleHome} className="hover:text-gray-500">Home</p>
-          <p onClick={handleContact} className="hover:text-gray-500">Contact</p>
-        </div>
+      <div className="flex gap-6 text-lg md:text-xl font-medium text-white">
+        <p
+          onClick={() => navigate('/servici')}
+          className="relative cursor-pointer after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-300 hover:after:w-full hover:text-gray-300"
+        >
+          Servicii
+        </p>
+        <p
+          onClick={() => navigate('/contact')}
+          className="relative cursor-pointer after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-300 hover:after:w-full hover:text-gray-300"
+        >
+          Contact
+        </p>
       </div>
-    </>
+    </nav>
   );
 }
 
