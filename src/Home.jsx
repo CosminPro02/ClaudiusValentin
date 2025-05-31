@@ -147,7 +147,7 @@ function Home() {
             <div className="pt-6">
               <button
                onClick={() => navigate('/contact')}
-               className="group relative px-8 py-4 bg-gradient-to-r from-white/5 rounded-full text-white font-semibold text-lg hover:from-white/5 hover:to-white/10 transform hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl">
+               className="group relative px-8 py-4 bg-gradient-to-r from-white/5 rounded-full text-white font-semibold text-lg hover:from-white/5 hover:to-white/10 transform hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl w-full">
                 <span className="relative z-10">Solicită Ofertă</span>
               </button>
             </div>
