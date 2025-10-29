@@ -6,7 +6,7 @@ export default function Servicii() {
             description:"Asigurăm servicii de transport rutier de marfă atât pe teritoriul României, cât și în toată Europa. Oferim soluții flexibile și rapide pentru nevoile tale logistice, indiferent de distanță.",
         },
         {
-            title: "Transport Prelata/Sprinter 3,5 tone",
+            title: "Transport Van 3,5 tone",
             description:"Ideal pentru livrări rapide și eficiente, autoutilitarele noastre de 3,5 tone sunt perfecte pentru transportul de marfă cu volum mic sau mediu. Acestea oferă flexibilitate, acces facil în zone urbane și livrare expres."
         },
         {
